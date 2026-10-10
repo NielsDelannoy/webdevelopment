@@ -1,0 +1,16 @@
+.titels {
+    font-weight: normal;
+    font-size: normal;
+    border: 1px solid gray;
+}
+
+.omkadering {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    }
+
+.data {
+    font-weight: normal;
+    font-size: normal;
+    border: 1px solid gray;
+}
