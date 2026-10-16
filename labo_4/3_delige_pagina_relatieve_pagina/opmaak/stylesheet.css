@@ -1,0 +1,42 @@
+.titel {
+    font-size: xx-large;
+    font-family: Algerian;
+    text-align: center;
+}
+
+.achtergrond {
+    background-color: lightslategrey;
+}
+
+
+.ronaldo {
+    width: 250px;
+    height: 250px;
+
+}
+
+.benadrukt {
+    font-weight: bold;
+}
+
+.pingpong {
+    width: 300px;
+    height: 200px;
+}
+
+.titels {
+    font-weight: normal;
+    font-size: normal;
+    border: 1px black solid;
+}
+
+.omkadering {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.data {
+    font-weight: normal;
+    font-size: normal;
+    border: 1px black solid;
+}
