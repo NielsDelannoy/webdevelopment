@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3cdab1-1993-4c8b-8e61-e8e65ae65f1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/opmaak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/opmaak.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793366272508</updated>
-      <workItem from="1793366273694" duration="991000" />
+      <workItem from="1793366273694" duration="1316000" />
     </task>
     <servers />
   </component>
