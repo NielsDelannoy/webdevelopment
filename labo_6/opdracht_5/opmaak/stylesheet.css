@@ -21,14 +21,11 @@ a:hover {
     padding: 5px;
 }
 
-.linkje{
-    text-decoration: none;
-    color: #0066cc;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px; /* ruimte tussen tekst en icoon */
+.link {
+    background-image: url("../images/link_icoontje.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px 16px;
+    padding-left: 22px;
 }
 
-.linkje i{
-    font-size: 0.9em;
-}
