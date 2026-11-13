@@ -1,0 +1,41 @@
+
+.omkadering {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.titels {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+}
+
+.data {
+    font-weight: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+.kleur {
+    background-color: #F7CDCD;
+    color: #80141C;
+}
+
+.p {
+    color: #80141C;
+}
+
+
+tr.alt td {
+    background-color: #E6E6E6;
+}
+
+
+.onbekend {
+    background-color: red;
+}
