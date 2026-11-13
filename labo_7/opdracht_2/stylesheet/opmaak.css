@@ -1,0 +1,34 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+.omkadering {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: white;
+}
+
+.titels {
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 12px;
+    background-color: #d9eaf7;
+    text-align: center;
+}
+
+.data {
+    font-weight: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
