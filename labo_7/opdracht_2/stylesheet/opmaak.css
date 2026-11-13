@@ -1,18 +1,7 @@
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-}
-
-h1 {
-    text-align: center;
-    color: #333333;
-}
-
 .omkadering {
     border: 2px solid gray;
     border-collapse: collapse;
-    margin: auto;
     background-color: white;
 }
 
@@ -21,7 +10,6 @@ h1 {
     font-size: 16px;
     border: 1px solid gray;
     padding: 12px;
-    background-color: #d9eaf7;
     text-align: center;
 }
 
@@ -31,4 +19,9 @@ h1 {
     border: 1px solid gray;
     padding: 10px;
     text-align: center;
+}
+
+.kleur {
+    background-color: #F7CDCD;
+    color: #80141C;
 }
