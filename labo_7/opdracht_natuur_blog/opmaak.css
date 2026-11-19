@@ -1,6 +1,8 @@
 .headerfoto {
     background-image: url('images/header.jpg');
     height: 9vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .headertitle {
