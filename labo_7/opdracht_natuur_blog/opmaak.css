@@ -5,6 +5,8 @@
 
 .headertitle {
     color: white;
+    padding-left: 4px;
+    font-weight: bold;
 }
 
 nav {
@@ -19,12 +21,23 @@ nav {
 
 article {
     background-color: lightgray;
-    height: 18vh;
+    height: 20vh;
     align-content: end;
     margin: 10px;
+    padding-bottom: 5px;
 }
 
 .articleheaders {
-    color: dimgrey;
+    color: darkslategray;
     text-decoration: underline;
+    padding-left: 4px;
+}
+
+p {
+    padding-left: 4px;
+
+}
+
+.blauwelinks {
+    padding-left: 4px;
 }
