@@ -1,0 +1,30 @@
+.headerfoto {
+    background-image: url('images/header.jpg');
+    height: 9vh;
+}
+
+.headertitle {
+    color: white;
+}
+
+nav {
+    background-color: darkslategray;
+    height: 3vh;
+    padding-top: 6px;
+}
+
+.navigatielinks {
+    color: lightgreen;
+}
+
+article {
+    background-color: lightgray;
+    height: 18vh;
+    align-content: end;
+    margin: 10px;
+}
+
+.articleheaders {
+    color: dimgrey;
+    text-decoration: underline;
+}
