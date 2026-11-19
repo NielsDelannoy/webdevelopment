@@ -1,22 +1,73 @@
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: darkgray;
+    margin: 0;
+}
+
+header {
+    background-color: darkgray;
+    color: white;
+    padding: 30px;
+}
+
 .titel {
-    font-size: xx-large;
-    font-family: Algerian;
+    font-size: 36px;
     text-align: center;
 }
 
-.achtergrond {
-    background-color: lightslategrey;
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 15px;
 }
 
+nav a {
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #254b50;
+    border-bottom: 2px solid darkslategrey;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: gray;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: darkgray;
+}
 
 .ronaldo {
     width: 250px;
     height: 250px;
-
 }
 
 .benadrukt {
     font-weight: bold;
+    color: #287a70;
+    font-size: 20px;
 }
 
 .pingpong {
@@ -24,19 +75,31 @@
     height: 200px;
 }
 
-.titels {
-    font-weight: normal;
-    font-size: normal;
-    border: 1px black solid;
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-.omkadering {
-    border: 1px black solid;
-    border-collapse: collapse;
+.titels {
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px;
 }
 
 .data {
-    font-weight: normal;
-    font-size: normal;
-    border: 1px black solid;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+footer {
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }

@@ -6,54 +6,62 @@
     <title>persoonlijke pagina</title>
     <link rel="stylesheet" href="opmaak/stylesheet.css">
 </head>
-<body class="achtergrond">
+<body>
 
 <header>
     <h1 class="titel">Cristiano Ronaldo</h1>
 </header>
 
+<nav>
+    <a href="#persoonlijk">Persoonsgegevens</a>
+    <a href="#hobbys">Hobby's</a>
+    <a href="#interesses">Interesses</a>
+    <a href="#prognose">Prognose</a>
+</nav>
+
 <main>
-    <section>
-        <h2>persoonsgegevens</h2>
+
+    <section id="persoonlijk">
+        <h2>Persoonsgegevens</h2>
+
+        <img src="images/persoonsfoto.jpg" class="ronaldo" alt="Cristiano Ronaldo">
+
         <ul>
             <li>Cristiano Ronaldo</li>
             <li>Madeira Portugal</li>
             <li>1 (424) 367-2100</li>
-            <li><a href="cristianoronaldo@hotmail.com">cristianoronaldo@hotmail.com</a></li>
+            <li><a href="mailto:cristianoronaldo@hotmail.com">cristianoronaldo@hotmail.com</a></li>
         </ul>
-        <img src="images/persoonsfoto.jpg" class="ronaldo" alt="mijn foto">
     </section>
 
-    <section>
+    <section id="hobbys">
         <h2>Hobby's</h2>
-        <ul>
-            <li><a href="https://actu-padel.com/en/cristiano-ronaldo-padel-after-football/">Padel</a></li>
-        </ul>
+
+        <h3><a href="https://actu-padel.com/en/cristiano-ronaldo-padel-after-football/">Padel</a></h3>
         <p>Ronaldo speelt regelmatig padel met vrienden en heeft onder andere getraind met Arturo Coello, een van de beste padelspelers ter wereld.</p>
 
-        <ul>
-            <li><a href="https://www.expressvehiclecontracts.co.uk/blog/inside-cristiano-ronaldo-car-collection-hypercars-supercars-and-luxury-icons">Auto's</a></li>
-        </ul>
+        <h3><a href="https://www.expressvehiclecontracts.co.uk/blog/inside-cristiano-ronaldo-car-collection-hypercars-supercars-and-luxury-icons">Auto's</a></h3>
         <p>Cristiano Ronaldo heeft een indrukwekkende autocollectie met hypercars, supercars en luxe SUV's, met een totale waarde van 30 miljoen Euro.</p>
 
-        <ul>
-            <li><a href="https://skillswimming.com/cristiano-ronaldo-vs-swimming/">Zwemmen</a></li>
-        </ul>
+        <h3><a href="https://skillswimming.com/cristiano-ronaldo-vs-swimming/">Zwemmen</a></h3>
         <p>Cristiano Ronaldo gebruikt zwemmen als onderdeel van zijn fysieke training en herstel. Het past bij zijn doel om zo lang mogelijk op het hoogste niveau te blijven voetballen.</p>
     </section>
 
-    <section>
-        <h2>interesses</h2>
+    <section id="interesses">
+        <h2>Interesses</h2>
+
         <p class="benadrukt">Tafeltennis</p>
-        <p>Cristiano Ronaldo is niet alleen goed in voetbal, maar houdt ook van tafeltennis,<br> hij speelt het al sinds zijn jeugd en beschouwde het als een van zijn favoriete sporten naast voetbal.</p>
-        <img class="pingpong" src="images/pingpong.jpg" alt="pingpong">
+        <p>Cristiano Ronaldo is niet alleen goed in voetbal, maar houdt ook van tafeltennis. Hij speelt het al sinds zijn jeugd en beschouwde het als een van zijn favoriete sporten naast voetbal.</p>
+
+        <img class="pingpong" src="images/pingpong.jpg" alt="Tafeltennis">
     </section>
 
-    <section>
-        <h2>prognose</h2>
+    <section id="prognose">
+        <h2>Prognose</h2>
+
         <table class="omkadering">
             <tr>
-                <th class="titels">leerling</th>
+                <th class="titels">Leerling</th>
                 <th class="titels">Problem solving</th>
                 <th class="titels">Computer systems</th>
                 <th class="titels">Fundamentals of programming</th>
@@ -84,7 +92,12 @@
             </tr>
         </table>
     </section>
+
 </main>
+
+<footer>
+    <p>Persoonlijke pagina - Web Development I</p>
+</footer>
 
 </body>
 </html>
